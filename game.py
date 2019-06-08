@@ -33,19 +33,28 @@ print("COMPUTER CHOICE:", computer_choice)
 # scissors beats paper
 # same selection is a tie
 
+# DISPLAY FINAL OUTPUTS / OUTCOMES
+
 if user_choice == computer_choice:
     print("TIE")
 elif user_choice == "rock" and computer_choice == "paper":
-    print("PAPER")
+    print("WINNER IS PAPER")
+    print("COMPUTER WINS")
 elif user_choice == "rock" and computer_choice == "scissors":
-    print("ROCK")
+    print("WINNER IS ROCK")
+    print("USER WINS")
 elif user_choice == "paper" and computer_choice == "rock":
-    print("ROCK")
+    print("WINNER IS ROCK")
+    print("COMPUTER WINS")
 elif user_choice == "paper" and computer_choice == "scissors":
-    print("SCISSORS")
+    print("WINNER IS SCISSORS")
+    print("COMPUTER WINS")
 elif user_choice == "scissors" and computer_choice == "rock":
-    print("ROCK")
+    print("WINNER IS ROCK")
+    print("COMPUTER WINS")
 elif user_choice == "scissors" and computer_choice == "paper":
-    print("SCISSORS")
+    print("WINNER IS SCISSORS")
+    print("USER WINS")
 
-# DISPLAY FINAL OUTPUTS / OUTCOMES
+
+
